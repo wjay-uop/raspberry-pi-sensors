@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 Tool to read temperature, pressure and humidty measured by a BME280 chip connected to a
 Raspberry Pi
