@@ -13,3 +13,9 @@ Follow the links below for instructions for specific sensors.
 The BME280 measures temperature, pressure and humidity.
 
 [Instructions](bme280/bme280.md)
+
+### SGP30 ###
+
+The SGP30 measures total volitile compounds (TVOC) and equivilent CO2 (eCO2).
+
+[Instructions](sgp30/sgp30.md)
