@@ -15,13 +15,13 @@ def main():
     # Initialise sensor class
     sgp30 = SGP30()
 
+    # Connect to sensor
     sgp30.start_measurement()
 
-    while True:
+    # Take measurement
+    result = sgp30.get_air_quality()
 
-        result = sgp30.get_air_quality()
-        print(result)
-        time.sleep(1.0)
+    print(result)
 
 
 if __name__ == "__main__":
