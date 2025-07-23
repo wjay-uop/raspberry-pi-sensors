@@ -19,3 +19,9 @@ The BME280 measures temperature, pressure and humidity.
 The SGP30 measures total volitile compounds (TVOC) and equivilent CO2 (eCO2).
 
 [Instructions](sgp30/sgp30.md)
+
+### BME688  ###
+
+The BME688 measures temperature, pressure, humidity and air quality.
+
+[Instructions](bme688/bme280.md)
