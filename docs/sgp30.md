@@ -4,7 +4,9 @@
 
 This document outlines how to set up the SGP30 sensor to communicate with the Raspberry Pi.
 
+
 ## Set up ##
+
 
 ### Connect to Raspberry Pi ###
 
@@ -20,8 +22,6 @@ Connect the following BME280 pins to the corresponding Raspberry Pi pins:
 See the diagram of the Raspberry Pi pins [here](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#gpio).
 
 
-
-
 ### Installation ###
 
 ```
@@ -33,15 +33,27 @@ If you get an error about the environment being externally managed, then try the
 ```
 python3 -m pip install pimoroni-sgp30 --break-system-packages
 ```
+
+
 ### Get Measurements Using Python ###
 
 The file `take_measurement.py` is a Python script that will communicate with the SGP30 sensor and get the current measurements for TVOC and eCO2..
 
 Run the script with the below command. Note that the path to the script needs to be correct, either use the full path or the relative path.
 
-The script requires no inputs.
+The script requires no inputs. There is an option `--verbose` flag you can optionally insert after the script path which will result in more information being displayed when you run the script.
 
 ```bash
-python bme280/take_measurement.py
+scripts/sgp30_measurement.py
+```
+or
+```bash
+scripts/sgp30_measurement.py --verbose
+
 ```
 
+This should output the eCO2 and TVOC readings in the following format:
+```
+Equivalent CO2:                         419 ppm
+Total Volatile Organic Compounds        3 ppb
+```

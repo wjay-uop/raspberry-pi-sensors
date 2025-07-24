@@ -106,3 +106,16 @@ Some important relative path features:
  * `~` represents the home directory. E.g `ls ~/Documents` would like the home Documents directory regardless of your current working directory
  * `./` represents the current directory.
  * `../` represents the parent directory. For example, if the current working directory is `/home/wjay/Documents/`, we can list `/home/wjay/Pictures` with `ls ../Pictures`
+
+
+## Other Common Commands ##
+
+The above commands should be all you need to know to get things running in this repository. Below are a list of other common commands to be aware of.
+
+* `cp`: Copy file
+* `mv`: Move / rename file
+* `rm`: Remove file (careful)
+* `rmdir`: Remove directory
+* `cat`: Displays text in a file
+* `nano`: A simple command line text editor
+
