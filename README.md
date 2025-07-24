@@ -55,7 +55,7 @@ The BME280 measures temperature, pressure and humidity.
 
 The BME688 measures temperature, pressure, humidity and air quality.
 
-[Instructions](docs/bme280.md)
+[Instructions](docs/bme688.md)
 
 
 ### SGP30 ###
